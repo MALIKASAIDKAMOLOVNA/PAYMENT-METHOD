@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    padding-top: 20px;
+    background-color: #fff;
+    width: 550px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 19px 12px rgb(140, 135, 9);
+}
+.dott {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.dott span{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #ddd;
+}
+.dott span.active{
+    background-color: rgb(127, 119, 119);
+}
+.card__title{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 38px;
+}
+.item {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    border-top: 2px solid silver;
+    padding: 20px 0;
+}
+.item img{
+    width: 120px;
+    height: 50px;
+}
+.btn{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #5081D7;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0 0 12px 12px;
+    position: relative;
+}
+.btn svg path{
+    fill: rgb(161, 32, 131);
+}
+.btn:active{
+    top: 3px;
+}
